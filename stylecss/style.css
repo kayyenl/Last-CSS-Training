@@ -71,6 +71,14 @@
     width: 100%;
 }
 
+.row2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 .boxwrapper {
     width: 50%;
     padding-right: 30px;
