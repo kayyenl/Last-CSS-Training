@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 .box {
     border: 4px solid lightblue;
     width: 100px;
@@ -16,10 +20,44 @@
     padding:20px;
 }
 
+.container2 {
+    border: 4px solid black;
+    padding: 20px 20px 0 20px;
+}
+
+.row {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.title {
+    border: solid grey;
+    width: 100%;
+    height: 24px;
+    margin-bottom: 24px;
+}
+
+#minicon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box2 {
+    border: solid black;
+    width: calc(85%/3);
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+.spacer {
+    height:100px;
+}
+
 #adjust {
     display: flex;
     width: 240px;
     justify-content: space-around;
     align-items: center;
-
 }
