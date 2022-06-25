@@ -32,6 +32,45 @@
     display: flex;
 }
 
+.container4 {
+    border: 4px solid black;
+    padding: 100px 124px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gbox {
+    width: 48%;
+    display: flex;
+}
+
+.leftbox {
+    display: block;
+}
+
+.box4 {
+    border: 4px solid black;
+    margin-bottom: 24px;
+    width: 100%;
+    height: 50px;
+}
+
+.smallformat {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box4small {
+    border: 4px solid black;
+    height: 50px;
+    width: 30%;
+}
+
+.box5 {
+    border: 4px solid black;
+    width: 100%;
+}
+
 .boxwrapper {
     width: 50%;
     padding-right: 30px;
